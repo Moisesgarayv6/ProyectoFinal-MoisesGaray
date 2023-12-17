@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="encabezado">
+            <a href="/index.html" class="logo" title="logo"><img src="../IMG/logotipo.png"></a>
+            <h1 class="tituloprincipal">El rincon del bricolaje</h1>
+        </div>
+        <ul class="navegacion">
+            <li><a class="linknav" href="../index.html">Inicio</a></li>
+            <li><a class="linknav" href="galeria.html">Galeria</a></li>
+            <li><a class="linknav" href="./nosotros.html">Nosotros</a></li>
+            <li><a class="linknav" href="sucursal.html">Sucursal</a></li>
+            <li><a class="linknav" href="contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+    <main class="boxofbox">
+            <form class="boxcontacto" action="404.html" mehtod="post">
+                <div class="tituloformulario">
+                    <label id="labelnombre" for="nombre" class="tituloformulario">Formulario de contacto</label>
+                </div>
+                <div class="boxformulario">
+                    <input class="formulario" type="text" name="nombre" id="nombre" placeholder="ingrese su nombre" required>
+                    <br>
+                    <input class="formulario" type="text" name="apellido" id="apellido" placeholder="ingrese su apellido" required>
+                    <br>
+                    <input class="formulario" type="text" name="usuario" id="usuario" placeholder="ingrese el usuario que desee usar">
+                    <br>
+                    <input class="formulario" type="email" name="email" id="email" placeholder="ejemplo@servidor.com" required>
+                    <br>
+                    <input class="formulario" type="password" name="contraseña" id="contraseña" placeholder="ingrese su contraseña" required>
+                </div>
+                <div class="botones">
+                    <input class="enviarformulario" type="submit" name="enviar" id="enviar" value="Enviar formulario">
+                    <input class="limpiarformulario" type="submit" value="limpiar" name="limpiar" id="limpiar">
+                </div>
+            </form>
+    </main>
+    <footer>
+        <ul class="footer">
+            <li><a href="gmail.com" class="linkfooter">Gmail</a></li>
+            <li><a href="whatssapp.com" class="linkfooter">Whatsapp</a></li>
+            <li><a href="facebook.com" class="linkfooter">facebook</a></li>
+            <li><a class="linkfooter">telefono</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
